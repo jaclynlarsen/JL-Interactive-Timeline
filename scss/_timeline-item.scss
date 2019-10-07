@@ -1,0 +1,49 @@
+$baseunit: .5rem;
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  overflow: hidden;
+}
+
+.wrapper {
+  // width calculated in jQuery
+  display: flex;
+  flex-wrap: nowrap;
+  transition: all 1s;
+}
+.panel {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+  padding: $baseunit*3;
+  background-color: ##B6C9E3;
+  
+  h1 {
+    font-size: $baseunit*15;
+    letter-spacing: -2px;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  height: 10vh;
+  margin: 0;
+  padding: $baseunit*2;
+  list-style: none;
+  background-color: #;
+  li {
+    margin: auto $baseunit;
+    font-weight: 100;
+    font-size: $baseunit*1.75;
+    letter-spacing: 1px;
+    color: #fff;
+    &:hover {
+      cursor: pointer;
+      color: #ccc;
+    }
+  }
+}
