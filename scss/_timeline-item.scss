@@ -19,13 +19,12 @@ main {
   width: 100vw;
   height: 90vh;
   padding: $baseunit*3;
-  background-color: ##B6C9E3;
+  }
   
   h1 {
-    font-size: $baseunit*15;
+    font-size: $baseunit*5;
     letter-spacing: -2px;
   }
-}
 
 ul {
   display: flex;
@@ -34,7 +33,7 @@ ul {
   margin: 0;
   padding: $baseunit*2;
   list-style: none;
-  background-color: #;
+
   li {
     margin: auto $baseunit;
     font-weight: 100;
