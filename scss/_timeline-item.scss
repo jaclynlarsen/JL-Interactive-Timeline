@@ -18,12 +18,12 @@ main {
   position: relative;
   width: 100vw;
   height: 90vh;
-  padding: $baseunit*3;
-  }
   
-  h1 {
-    font-size: $baseunit*5;
-    letter-spacing: -2px;
+  margin-top: .5%;
+  background-image: url("../img/timeline2.png");
+  background-size: 80%;
+  background-repeat: repeat-x;
+  background-position: bottom left;
   }
 
 ul {
@@ -46,3 +46,4 @@ ul {
     }
   }
 }
+
