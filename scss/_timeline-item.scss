@@ -4,6 +4,10 @@ $baseunit: .5rem;
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e6e6e6;
+}
+
 main {
   overflow: hidden;
 }
@@ -17,13 +21,15 @@ main {
 .panel {
   position: relative;
   width: 100vw;
-  height: 90vh;
-  
-  margin-top: .5%;
-  background-image: url("../img/timeline2.png");
-  background-size: 80%;
+  height: 72vh;
+  background-image: url("../img/timeline.png");
+  background-size: 60%;
   background-repeat: repeat-x;
   background-position: bottom left;
+  padding-bottom: 5rem;
+  img {
+    width: 30%;
+    }
   }
 
 ul {
