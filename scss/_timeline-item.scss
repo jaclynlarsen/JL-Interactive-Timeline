@@ -12,11 +12,16 @@ main {
   overflow: hidden;
 }
 
+.headertwo {
+  background-color: #e6e6e6;
+}
+
 .wrapper {
   // width calculated in jQuery
   display: flex;
   flex-wrap: nowrap;
   transition: all 1s;
+  background-color: #e6e6e6;
 }
 .panel {
   position: relative;
